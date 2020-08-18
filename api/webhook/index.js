@@ -2,7 +2,7 @@
 
 const axios = require(`axios`);
 const tweetClient = require(`./_twitter`);
- 
+
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
     if (req.body && req.body.link){
