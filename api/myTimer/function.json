@@ -1,9 +1,11 @@
 {
+    "disabled": true,
+    "scriptFile": "index.js",
     "bindings": [
       {
-        "name": "myTimer",
         "type": "timerTrigger",
-        "schedule": "0 */5 * * * *"
+        "direction": "in",
+        "schedule": "0 0 */5 * * *"
       }
     ]
   }
